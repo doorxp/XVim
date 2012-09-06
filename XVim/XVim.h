@@ -22,6 +22,7 @@
 @interface XVim : NSObject<XVimKeymapProvider>
 
 + (XVim*)instance;
++ (void) initForTesting;
 
 @property (strong) XVimOptions* options;
 @property (strong) XVimSearch* searcher;

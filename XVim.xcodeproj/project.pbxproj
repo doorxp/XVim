@@ -7,6 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		693E06861565C2AD0014B1F3 /* wordsforward0.testResults in Resources */ = {isa = PBXBuildFile; fileRef = 693E06851565C2AD0014B1F3 /* wordsforward0.testResults */; };
+		693E06881565C6220014B1F3 /* wordsforward0.test in Resources */ = {isa = PBXBuildFile; fileRef = 693E06871565C6220014B1F3 /* wordsforward0.test */; };
+		695DEBA8155D8E850063129A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695DEBA7155D8E850063129A /* SenTestingKit.framework */; };
+		695DEBA9155D8E850063129A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B4BABB14D59F6600D817B0 /* Cocoa.framework */; };
+		695DEBAF155D8E850063129A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 695DEBAD155D8E850063129A /* InfoPlist.strings */; };
+		695DEBB2155D8E850063129A /* unitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695DEBB1155D8E850063129A /* unitTests.m */; };
+		698A38F6155EE85E00BA6C7C /* XVimSourceView+Vim.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FD41DB154E7E3400B076DB /* XVimSourceView+Vim.m */; };
+		698A38F8155EE89E00BA6C7C /* XVimSourceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AF5E17152EA92C00E13833 /* XVimSourceView.m */; };
+		698A38FA155EE8DC00BA6C7C /* XVimSourceView+Xcode.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FD41DF154E822300B076DB /* XVimSourceView+Xcode.m */; };
+		698A38FC155EE94400BA6C7C /* Hooker.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C4E79714E7F35300751199 /* Hooker.m */; };
+		698A38FD155EE94400BA6C7C /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = A24782B314D6F56E003B6433 /* Logger.m */; };
+		698A38FE155EE94400BA6C7C /* DVTSourceTextScrollViewHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C05D99154AE9A400ACCDDC /* DVTSourceTextScrollViewHook.m */; };
+		698A38FF155EE94400BA6C7C /* DVTSourceTextViewHook.m in Sources */ = {isa = PBXBuildFile; fileRef = C38A5B4015272B0500E1448D /* DVTSourceTextViewHook.m */; };
+		698A3900155EE94400BA6C7C /* IDESourceCodeEditorHook.m in Sources */ = {isa = PBXBuildFile; fileRef = C38A5B4615272DCD00E1448D /* IDESourceCodeEditorHook.m */; };
+		698A3901155EE94400BA6C7C /* IDEEditorAreaHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A2ADAB821545C18F0093A908 /* IDEEditorAreaHook.m */; };
+		698A3902155EE94400BA6C7C /* IDEEditorHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A26ACC4D154F2D6700B27D69 /* IDEEditorHook.m */; };
+		698A3903155EE94400BA6C7C /* XVimHookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C345DDBA154CE12A009F232E /* XVimHookManager.m */; };
+		698A3904155EE94400BA6C7C /* XVimStatusLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A2ABFE1215497A3C002220E8 /* XVimStatusLine.m */; };
+		698A3905155EE94400BA6C7C /* XVimCommandField.m in Sources */ = {isa = PBXBuildFile; fileRef = A24782BA14D6F56E003B6433 /* XVimCommandField.m */; };
+		698A3906155EE94400BA6C7C /* XVimCommandLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A8A4FF14E41C66002EA6C8 /* XVimCommandLine.m */; };
+		698A3907155EE94400BA6C7C /* XVimWindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C10740154D07F000C49741 /* XVimWindowManager.m */; };
+		698A3908155EE94400BA6C7C /* NSString+VimHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D48B1E15347B5C0088AB71 /* NSString+VimHelper.m */; };
+		698A3909155EE94400BA6C7C /* NSInsetTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C30886591554C8380024161D /* NSInsetTextView.m */; };
+		698A390A155EE94400BA6C7C /* XVimHistoryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C3552DA7153AC6F800D57577 /* XVimHistoryHandler.m */; };
+		698A390B155EE94400BA6C7C /* XVim.m in Sources */ = {isa = PBXBuildFile; fileRef = A24782B814D6F56E003B6433 /* XVim.m */; };
+		698A390C155EE94400BA6C7C /* XVimWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FA1A1C1532648700059BF6 /* XVimWindow.m */; };
+		698A390D155EE94400BA6C7C /* XVimCharacterSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = C39DC81415326F5500185390 /* XVimCharacterSearch.m */; };
+		698A390E155EE94400BA6C7C /* XVimRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D013A150861DC00A8111B /* XVimRegister.m */; };
+		698A390F155EE94400BA6C7C /* XVimKeyStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = C38A5B2F1526C6B100E1448D /* XVimKeyStroke.m */; };
+		698A3910155EE94400BA6C7C /* XVimKeymap.m in Sources */ = {isa = PBXBuildFile; fileRef = C366C23A15287EE30008C58E /* XVimKeymap.m */; };
+		698A3911155EE94400BA6C7C /* XVimOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BA3EA1152E372A00C18FB4 /* XVimOptions.m */; };
+		698A3912155EE94400BA6C7C /* XVimExCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A736351527484B0051E8E4 /* XVimExCommand.m */; };
+		698A3913155EE94400BA6C7C /* XVimSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A6BA2D152A544B00F0EB5F /* XVimSearch.m */; };
+		698A3914155EE94400BA6C7C /* XVimWindowEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = F15805C61530B4000031175A /* XVimWindowEvaluator.m */; };
+		698A3915155EE94400BA6C7C /* XVimRegisterEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = F100DC2D150BB6BC002C703C /* XVimRegisterEvaluator.m */; };
+		698A3916155EE94400BA6C7C /* XVimMarkSetEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F114154267BA007410ED /* XVimMarkSetEvaluator.m */; };
+		698A3917155EE94400BA6C7C /* XVimArgumentEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F11715427AE6007410ED /* XVimArgumentEvaluator.m */; };
+		698A3918155EE94400BA6C7C /* XVimMotionArgumentEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = C38A5B4F1527CEE600E1448D /* XVimMotionArgumentEvaluator.m */; };
+		698A3919155EE94400BA6C7C /* XVimGActionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = C361DE671538F18400037B4B /* XVimGActionEvaluator.m */; };
+		698A391A155EE94400BA6C7C /* XVimSearchLineEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F4A34514F00D69006DA5A5 /* XVimSearchLineEvaluator.m */; };
+		698A391B155EE94400BA6C7C /* XVimZEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F2426C15041A9B00F706A4 /* XVimZEvaluator.m */; };
+		698A391C155EE94400BA6C7C /* XVimGMotionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D42F414FE87AF004BC121 /* XVimGMotionEvaluator.m */; };
+		698A391D155EE94400BA6C7C /* XVimGVisualEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = C324BE0015390E8500C13558 /* XVimGVisualEvaluator.m */; };
+		698A391E155EE94400BA6C7C /* XVimMarkMotionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F11015426787007410ED /* XVimMarkMotionEvaluator.m */; };
+		698A391F155EE94400BA6C7C /* XVimOperatorEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = A222B5E01514DFCD005E8802 /* XVimOperatorEvaluator.m */; };
+		698A3920155EE94400BA6C7C /* XVimShiftEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = A2277ED714F80BFE00A6B70C /* XVimShiftEvaluator.m */; };
+		698A3921155EE94400BA6C7C /* XVimEqualEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1E514150475ED0005C1CB /* XVimEqualEvaluator.m */; };
+		698A3922155EE94400BA6C7C /* XVimYankEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = A2277EDA14F80D5000A6B70C /* XVimYankEvaluator.m */; };
+		698A3923155EE94400BA6C7C /* XVimDeleteEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = A2277ED314F80BCB00A6B70C /* XVimDeleteEvaluator.m */; };
+		698A3924155EE94400BA6C7C /* XVimTildeEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AA7225152F186A00C61D97 /* XVimTildeEvaluator.m */; };
+		698A3925155EE94400BA6C7C /* XVimLowercaseEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AA7229152F1B1700C61D97 /* XVimLowercaseEvaluator.m */; };
+		698A3926155EE94400BA6C7C /* XVimUppercaseEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AA722C152F1B2700C61D97 /* XVimUppercaseEvaluator.m */; };
+		698A3927155EE94400BA6C7C /* XVimOperatorAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C36C104A153120E200CE1D62 /* XVimOperatorAction.m */; };
+		698A3928155EE94400BA6C7C /* XVimTextObjectEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = C36C104D153131C500CE1D62 /* XVimTextObjectEvaluator.m */; };
+		698A3929155EE94400BA6C7C /* XVimSelectAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EC83081534355600F84712 /* XVimSelectAction.m */; };
+		698A392A155EE94400BA6C7C /* XVimMotionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FF17D01502B291003FE648 /* XVimMotionEvaluator.m */; };
+		698A392B155EE94400BA6C7C /* XVimEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C4E79B14E7F36B00751199 /* XVimEvaluator.m */; };
+		698A392C155EE94400BA6C7C /* XVimNormalEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F4A33D14F00B25006DA5A5 /* XVimNormalEvaluator.m */; };
+		698A392D155EE94400BA6C7C /* XVimVisualEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F4A34214F00BD3006DA5A5 /* XVimVisualEvaluator.m */; };
+		698A392E155EE94400BA6C7C /* XVimInsertEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = A28D42F714FE8E2A004BC121 /* XVimInsertEvaluator.m */; };
+		698A392F155EE94400BA6C7C /* XVimNumericEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = C38A5B4C1527CEA400E1448D /* XVimNumericEvaluator.m */; };
+		698A3930155EE94400BA6C7C /* XVimCommandLineEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = C3552D9A153948D200D57577 /* XVimCommandLineEvaluator.m */; };
+		698A3931155EE94400BA6C7C /* XVimEvaluatorContext.m in Sources */ = {isa = PBXBuildFile; fileRef = C33484F6154032170050AA76 /* XVimEvaluatorContext.m */; };
 		A216F3A1156560FE00AD2529 /* IDEEditorArea+XVim.m in Sources */ = {isa = PBXBuildFile; fileRef = A216F3A0156560FE00AD2529 /* IDEEditorArea+XVim.m */; };
 		A216F3A51565658F00AD2529 /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A216F3A31565658E00AD2529 /* IDEFoundation.framework */; };
 		A216F3A61565658F00AD2529 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A216F3A41565658E00AD2529 /* IDEKit.framework */; };
@@ -91,6 +154,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		693E06851565C2AD0014B1F3 /* wordsforward0.testResults */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordsforward0.testResults; sourceTree = "<group>"; };
+		693E06871565C6220014B1F3 /* wordsforward0.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = wordsforward0.test; path = testCases/wordsforward0.test; sourceTree = "<group>"; };
+		695DEBA6155D8E850063129A /* unitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		695DEBA7155D8E850063129A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		695DEBAC155D8E850063129A /* unitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "unitTests-Info.plist"; sourceTree = "<group>"; };
+		695DEBAE155D8E850063129A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		695DEBB0155D8E850063129A /* unitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unitTests.h; sourceTree = "<group>"; };
+		695DEBB1155D8E850063129A /* unitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = unitTests.m; sourceTree = "<group>"; };
+		695DEBB3155D8E850063129A /* unitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "unitTests-Prefix.pch"; sourceTree = "<group>"; };
 		A216F39F156560FE00AD2529 /* IDEEditorArea+XVim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IDEEditorArea+XVim.h"; path = "XVim/IDEEditorArea+XVim.h"; sourceTree = SOURCE_ROOT; };
 		A216F3A0156560FE00AD2529 /* IDEEditorArea+XVim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IDEEditorArea+XVim.m"; path = "XVim/IDEEditorArea+XVim.m"; sourceTree = SOURCE_ROOT; };
 		A216F3A31565658E00AD2529 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../../Developer/Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<group>"; };
@@ -237,6 +309,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		695DEBA2155D8E850063129A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695DEBA8155D8E850063129A /* SenTestingKit.framework in Frameworks */,
+				695DEBA9155D8E850063129A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2B4BAB514D59F6600D817B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,6 +334,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		693E06831565C2830014B1F3 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				693E06851565C2AD0014B1F3 /* wordsforward0.testResults */,
+				693E06871565C6220014B1F3 /* wordsforward0.test */,
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		695DEBAA155D8E850063129A /* unitTests */ = {
+			isa = PBXGroup;
+			children = (
+				693E06831565C2830014B1F3 /* tests */,
+				695DEBB0155D8E850063129A /* unitTests.h */,
+				695DEBB1155D8E850063129A /* unitTests.m */,
+				695DEBAB155D8E850063129A /* Supporting Files */,
+			);
+			path = unitTests;
+			sourceTree = "<group>";
+		};
+		695DEBAB155D8E850063129A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				695DEBAC155D8E850063129A /* unitTests-Info.plist */,
+				695DEBAD155D8E850063129A /* InfoPlist.strings */,
+				695DEBB3155D8E850063129A /* unitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		A222B5E31514DFD5005E8802 /* Operators */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,22 +396,25 @@
 		A2B4BAAD14D59F6600D817B0 = {
 			isa = PBXGroup;
 			children = (
-				A216F3A7156565AA00AD2529 /* DVTFoundation.framework */,
-				A216F3A8156565AB00AD2529 /* DVTKit.framework */,
-				A216F3A31565658E00AD2529 /* IDEFoundation.framework */,
-				A216F3A41565658E00AD2529 /* IDEKit.framework */,
 				A2C4E78F14E7EA0B00751199 /* Support */,
 				A2F41B0F14D70BD000A0314F /* Debug */,
 				A2B4BAC114D59F6600D817B0 /* XVim */,
+				695DEBAA155D8E850063129A /* unitTests */,
 				A2B4BABA14D59F6600D817B0 /* Frameworks */,
 				A234821814E7E26A003E0FF3 /* XVim.xcplugin */,
+				695DEBA6155D8E850063129A /* unitTests.octest */,
 			);
 			sourceTree = "<group>";
 		};
 		A2B4BABA14D59F6600D817B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A216F3A7156565AA00AD2529 /* DVTFoundation.framework */,
+				A216F3A8156565AB00AD2529 /* DVTKit.framework */,
+				A216F3A31565658E00AD2529 /* IDEFoundation.framework */,
+				A216F3A41565658E00AD2529 /* IDEKit.framework */,
 				A2B4BABB14D59F6600D817B0 /* Cocoa.framework */,
+				695DEBA7155D8E850063129A /* SenTestingKit.framework */,
 				A2B4BABD14D59F6600D817B0 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -526,10 +640,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		695DEBA5155D8E850063129A /* unitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 695DEBB4155D8E850063129A /* Build configuration list for PBXNativeTarget "unitTests" */;
+			buildPhases = (
+				695DEBA1155D8E850063129A /* Sources */,
+				695DEBA2155D8E850063129A /* Frameworks */,
+				695DEBA3155D8E850063129A /* Resources */,
+				695DEBA4155D8E850063129A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = unitTests;
+			productName = unitTests;
+			productReference = 695DEBA6155D8E850063129A /* unitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		A2B4BAB714D59F6600D817B0 /* XVim */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2B4BACA14D59F6600D817B0 /* Build configuration list for PBXNativeTarget "XVim" */;
 			buildPhases = (
+				693E06891566D4870014B1F3 /* ShellScript */,
 				A2B4BAB414D59F6600D817B0 /* Sources */,
 				A2B4BAB514D59F6600D817B0 /* Frameworks */,
 				A2B4BAB614D59F6600D817B0 /* Resources */,
@@ -565,11 +698,22 @@
 			projectRoot = "";
 			targets = (
 				A2B4BAB714D59F6600D817B0 /* XVim */,
+				695DEBA5155D8E850063129A /* unitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		695DEBA3155D8E850063129A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695DEBAF155D8E850063129A /* InfoPlist.strings in Resources */,
+				693E06861565C2AD0014B1F3 /* wordsforward0.testResults in Resources */,
+				693E06881565C6220014B1F3 /* wordsforward0.test in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2B4BAB614D59F6600D817B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -580,7 +724,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		693E06891566D4870014B1F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export XCODE_PATH=\"`xcode-select --print-path`\"";
+		};
+		695DEBA4155D8E850063129A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		695DEBA1155D8E850063129A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698A38FC155EE94400BA6C7C /* Hooker.m in Sources */,
+				698A38FD155EE94400BA6C7C /* Logger.m in Sources */,
+				698A38FE155EE94400BA6C7C /* DVTSourceTextScrollViewHook.m in Sources */,
+				698A38FF155EE94400BA6C7C /* DVTSourceTextViewHook.m in Sources */,
+				698A3900155EE94400BA6C7C /* IDESourceCodeEditorHook.m in Sources */,
+				698A3901155EE94400BA6C7C /* IDEEditorAreaHook.m in Sources */,
+				698A3902155EE94400BA6C7C /* IDEEditorHook.m in Sources */,
+				698A3903155EE94400BA6C7C /* XVimHookManager.m in Sources */,
+				698A3904155EE94400BA6C7C /* XVimStatusLine.m in Sources */,
+				698A3905155EE94400BA6C7C /* XVimCommandField.m in Sources */,
+				698A3906155EE94400BA6C7C /* XVimCommandLine.m in Sources */,
+				698A3907155EE94400BA6C7C /* XVimWindowManager.m in Sources */,
+				698A3908155EE94400BA6C7C /* NSString+VimHelper.m in Sources */,
+				698A3909155EE94400BA6C7C /* NSInsetTextView.m in Sources */,
+				698A390A155EE94400BA6C7C /* XVimHistoryHandler.m in Sources */,
+				698A390B155EE94400BA6C7C /* XVim.m in Sources */,
+				698A390C155EE94400BA6C7C /* XVimWindow.m in Sources */,
+				698A390D155EE94400BA6C7C /* XVimCharacterSearch.m in Sources */,
+				698A390E155EE94400BA6C7C /* XVimRegister.m in Sources */,
+				698A390F155EE94400BA6C7C /* XVimKeyStroke.m in Sources */,
+				698A3910155EE94400BA6C7C /* XVimKeymap.m in Sources */,
+				698A3911155EE94400BA6C7C /* XVimOptions.m in Sources */,
+				698A3912155EE94400BA6C7C /* XVimExCommand.m in Sources */,
+				698A3913155EE94400BA6C7C /* XVimSearch.m in Sources */,
+				698A3914155EE94400BA6C7C /* XVimWindowEvaluator.m in Sources */,
+				698A3915155EE94400BA6C7C /* XVimRegisterEvaluator.m in Sources */,
+				698A3916155EE94400BA6C7C /* XVimMarkSetEvaluator.m in Sources */,
+				698A3917155EE94400BA6C7C /* XVimArgumentEvaluator.m in Sources */,
+				698A3918155EE94400BA6C7C /* XVimMotionArgumentEvaluator.m in Sources */,
+				698A3919155EE94400BA6C7C /* XVimGActionEvaluator.m in Sources */,
+				698A391A155EE94400BA6C7C /* XVimSearchLineEvaluator.m in Sources */,
+				698A391B155EE94400BA6C7C /* XVimZEvaluator.m in Sources */,
+				698A391C155EE94400BA6C7C /* XVimGMotionEvaluator.m in Sources */,
+				698A391D155EE94400BA6C7C /* XVimGVisualEvaluator.m in Sources */,
+				698A391E155EE94400BA6C7C /* XVimMarkMotionEvaluator.m in Sources */,
+				698A391F155EE94400BA6C7C /* XVimOperatorEvaluator.m in Sources */,
+				698A3920155EE94400BA6C7C /* XVimShiftEvaluator.m in Sources */,
+				698A3921155EE94400BA6C7C /* XVimEqualEvaluator.m in Sources */,
+				698A3922155EE94400BA6C7C /* XVimYankEvaluator.m in Sources */,
+				698A3923155EE94400BA6C7C /* XVimDeleteEvaluator.m in Sources */,
+				698A3924155EE94400BA6C7C /* XVimTildeEvaluator.m in Sources */,
+				698A3925155EE94400BA6C7C /* XVimLowercaseEvaluator.m in Sources */,
+				698A3926155EE94400BA6C7C /* XVimUppercaseEvaluator.m in Sources */,
+				698A3927155EE94400BA6C7C /* XVimOperatorAction.m in Sources */,
+				698A3928155EE94400BA6C7C /* XVimTextObjectEvaluator.m in Sources */,
+				698A3929155EE94400BA6C7C /* XVimSelectAction.m in Sources */,
+				698A392A155EE94400BA6C7C /* XVimMotionEvaluator.m in Sources */,
+				698A392B155EE94400BA6C7C /* XVimEvaluator.m in Sources */,
+				698A392C155EE94400BA6C7C /* XVimNormalEvaluator.m in Sources */,
+				698A392D155EE94400BA6C7C /* XVimVisualEvaluator.m in Sources */,
+				698A392E155EE94400BA6C7C /* XVimInsertEvaluator.m in Sources */,
+				698A392F155EE94400BA6C7C /* XVimNumericEvaluator.m in Sources */,
+				698A3930155EE94400BA6C7C /* XVimCommandLineEvaluator.m in Sources */,
+				698A3931155EE94400BA6C7C /* XVimEvaluatorContext.m in Sources */,
+				698A38FA155EE8DC00BA6C7C /* XVimSourceView+Xcode.m in Sources */,
+				698A38F8155EE89E00BA6C7C /* XVimSourceView.m in Sources */,
+				698A38F6155EE85E00BA6C7C /* XVimSourceView+Vim.m in Sources */,
+				695DEBB2155D8E850063129A /* unitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2B4BAB414D59F6600D817B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -651,6 +889,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		695DEBAD155D8E850063129A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				695DEBAE155D8E850063129A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		A24782C414D6F6DC003B6433 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -662,6 +908,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		695DEBB5155D8E850063129A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "unitTests/unitTests-Prefix.pch";
+				INFOPLIST_FILE = "unitTests/unitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		695DEBB6155D8E850063129A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "unitTests/unitTests-Prefix.pch";
+				INFOPLIST_FILE = "unitTests/unitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		A2B4BAC814D59F6600D817B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -672,10 +950,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					/Developer/Library/Xcode/PrivatePlugins,
 					/Developer/Library/PrivateFrameworks,
-					/Applications/Xcode.app/Contents/SharedFrameworks,
+					/Developer/Applications/Xcode.app/Contents/SharedFrameworks,
+					/Developer/Applications/Xcode.app/Contents/Frameworks,
 					/Applications/Xcode.app/Contents/Frameworks,
-					/Developer/Applications/Xcode.app/Contents/SharedFrameworks,
-					/Developer/Applications/Xcode.app/Contents/SharedFrameworks,
+					/Applications/Xcode.app/Contents/SharedFrameworks,
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -711,10 +989,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					/Developer/Library/Xcode/PrivatePlugins,
 					/Developer/Library/PrivateFrameworks,
-					/Applications/Xcode.app/Contents/SharedFrameworks,
+					/Developer/Applications/Xcode.app/Contents/SharedFrameworks,
+					/Developer/Applications/Xcode.app/Contents/Frameworks,
 					/Applications/Xcode.app/Contents/Frameworks,
-					/Developer/Applications/Xcode.app/Contents/SharedFrameworks,
-					/Developer/Applications/Xcode.app/Contents/SharedFrameworks,
+					/Applications/Xcode.app/Contents/SharedFrameworks,
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -779,6 +1057,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		695DEBB4155D8E850063129A /* Build configuration list for PBXNativeTarget "unitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695DEBB5155D8E850063129A /* Debug */,
+				695DEBB6155D8E850063129A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A2B4BAB214D59F6600D817B0 /* Build configuration list for PBXProject "XVim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
