@@ -874,13 +874,35 @@
 
 - (void)write:(XVimExArg*)args inWindow:(XVimWindow*)window
 { // :w
-    [NSApp sendAction:@selector(saveDocument:) to:nil from:self];
+    if ([window.sourceView.view.superview.superview isKindOfClass:NSClassFromString(@"DVTSourceTextScrollView")]) {
+        [NSApp sendAction:@selector(saveDocument:) to:nil from:self];
+    }
+    else
+    {
+        NSAlert *alert =
+        [[NSAlert alloc] init];
+        alert.messageText = @"Can't Save in this window";
+        [alert addButtonWithTitle:@"OK"];
+        [alert runModal];
+    }
+    
 }
 
 - (void)exit:(XVimExArg*)args inWindow:(XVimWindow*)window
 { // :wq
-    [NSApp sendAction:@selector(saveDocument:) to:nil from:self];
-    [NSApp sendAction:@selector(closeDocument:) to:nil from:self];
+    if ([window.sourceView.view.superview.superview isKindOfClass:NSClassFromString(@"DVTSourceTextScrollView")]) {
+        [NSApp sendAction:@selector(saveDocument:) to:nil from:self];
+        [NSApp sendAction:@selector(closeDocument:) to:nil from:self];
+    }
+    else
+    {
+        NSAlert *alert =
+        [[NSAlert alloc] init];
+        alert.messageText = @"Can't Save in this window";
+        [alert addButtonWithTitle:@"OK"];
+        [alert runModal];
+    }
+    
 }
 
 - (void)quit:(XVimExArg*)args inWindow:(XVimWindow*)window
